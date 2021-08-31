@@ -1,1 +1,5 @@
-## Please list additional packages with version numbers
+neo4j==4.2.1
+py2neo==2021.0.1
+pywikibot==6.1.0
+spacy==3.0.3
+wikipedia==1.4.0
