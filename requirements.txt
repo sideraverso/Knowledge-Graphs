@@ -4,5 +4,6 @@ py2neo==2021.2.0
 pywikibot==6.1.0
 scikit-learn==0.24.2
 spacy==3.0.3
+tqdm==4.62.2
 wikipedia==1.4.0
 
