@@ -11,7 +11,7 @@ ORDER BY SIZE(nodes) DESC
 MATCH (n:Node) 
 WITH n.name AS name, COLLECT(n) AS nodes 
 WHERE SIZE(nodes)>1 
-FOREACH (el in nodes | DETACH DELETE el
+FOREACH (el in nodes | DETACH DELETE el)
 
 // Where was Barack Obama born?
 
