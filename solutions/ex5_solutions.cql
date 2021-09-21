@@ -16,7 +16,7 @@ ORDER BY similarity DESCENDING, Person1, Person2;
 
 // Do the larger communities make sense? (pick ID with largest size)
 
-CALL gds.louvain.stream('member') 
+CALL gds.louvain.stream('member-undir') 
 YIELD nodeId, communityId 
 WHERE communityId = 1170 
 RETURN gds.util.asNode(nodeId).name AS name, communityId
