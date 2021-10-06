@@ -21,8 +21,11 @@ for this course on our local machines.  We apologize for the inconvenience!
 
 ## Steps
 
-1. Install virtualenv (venv) if you do not already have it
+1. Install virtualenv (venv) if you do not already have it:
+
 ```python3 -m pip3 install --user virtualenv```
+
+Instructions for Windows users can be found [here](https://docs.python.org/3/library/venv.html)
 
 2. Clone this repository
 ```git clone https://resources.oreilly.com/binderhub/introduction-to-knowledge-graphs```
