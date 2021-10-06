@@ -22,25 +22,24 @@ for this course on our local machines.  We apologize for the inconvenience!
 ## Steps
 
 1. Install virtualenv (venv) if you do not already have it:
-
 ```python3 -m pip3 install --user virtualenv```
 
 Instructions for Windows users can be found [here](https://docs.python.org/3/library/venv.html)
 
-2. Clone this repository
+2. Clone this repository: 
 ```git clone https://resources.oreilly.com/binderhub/introduction-to-knowledge-graphs```
 
-3. Create a virtual environment in the repo top folder
+3. Create a virtual environment in the repo top folder: 
 ```python3 -m venv my_env/ && source my_env/bin/activate```
 
-4. Install requirements
+4. Install requirements: 
 ```pip3 install -r requirements.txt```
 
-5. Install Jupyter Lab
+5. Install Jupyter Lab: 
 ```pip3 install jupyterlab```
 
-6. Download spacy dictionary
+6. Download spacy dictionary: 
 ```python3 -m spacy download en_core_web_md```
 
-7. Run Jupyter Lab
+7. Run Jupyter Lab: 
 ```jupyter lab```
